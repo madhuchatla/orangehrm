@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.orangehrm.baseclass.Screenshot1">
+        <methods>
+          <include name="sctShotTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.baseclass.Screenshot1 -->
+      <class name="com.orangehrm.baseclass.login">
+        <methods>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.orangehrm.baseclass.login -->
+      <class name="com.orangehrm.baseclass.addemployee">
+        <methods>
+          <include name="addEmpTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.baseclass.addemployee -->
+      <class name="com.orangehrm.baseclass.logout">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.baseclass.logout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
